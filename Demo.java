@@ -8,22 +8,22 @@ package Exception;
 */
 public class Demo {
 	public static void main(String[] args) {
-		System.out.println("Hi Exception");
-		int a = 10;
-		System.out.println(a);
-		int b = 20;
-		int c = 0;
+		System.out.println("Hi Exception Handling");
+		int x = 50;
+		System.out.println(x);
+		int  y= 100;
+		int z = 0;
 		try {
-			int x = a / b;
-			System.out.println(x);
-			int y = a / c;
-			System.out.println(y);
+			int p = x / y;
+			System.out.println(p);
+			int q = x / z;
+			System.out.println(q);
 
 		} catch (Exception ae) {
 			System.out.println("Dont try to divide anything by zero");
 			ae.printStackTrace();
 		}
-		System.out.println("Hello Exception");
+		System.out.println("Exception Handled");
 	}
 
 }
